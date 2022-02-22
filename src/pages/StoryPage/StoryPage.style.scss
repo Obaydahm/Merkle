@@ -6,33 +6,32 @@
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid #cecece;
+  text-decoration: none !important;
 }
 
-.topBar a {
-  text-decoration: none;
-}
+.content {
+  .story-image {
+    width: 100%;
+    min-height: 200px;
+  }
 
-.story-image {
-  width: 100%;
-  min-height: 200px;
-}
+  .text {
+    padding: 0px 20px;
 
-.text {
-  padding: 0px 20px;
-}
+    .title {
+      padding-top: 20px;
+      font-size: 30px;
+      font-weight: 600;
+      text-align: center;
+    }
 
-.story-title {
-  padding-top: 20px;
-  font-size: 30px;
-  font-weight: 600;
-  text-align: center;
-}
+    .info {
+      text-align: center;
+    }
 
-.info {
-  text-align: center;
-}
-
-.text .story {
-  padding-top: 20px;
-  text-align: center;
+    .story {
+      padding-top: 20px;
+      text-align: center;
+    }
+  }
 }

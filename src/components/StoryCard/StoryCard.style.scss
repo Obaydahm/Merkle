@@ -5,46 +5,45 @@
   margin: 5px;
   border: 1px solid #cecece;
   border-radius: 5px;
-}
 
-.thumbnail {
-  height: 100px;
-  width: 100px;
-  vertical-align: middle;
-  border-radius: 5px;
-  border: 1px solid transparent;
-}
+  .thumbnail {
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    border-radius: 5px;
+    border: 1px solid transparent;
+  }
 
-.story-info {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 10px;
-}
+  .info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
 
-.story-info:hover {
-  background-color: #f1f1f1;
-  transition: 500ms;
-}
+    &:hover {
+      background-color: #f1f1f1;
+      transition: 500ms;
+    }
 
-.story-info .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+    .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
 
-.story-info .header .title {
-  font-size: 24px;
-  font-weight: 600;
-}
+      .title {
+        font-size: 24px;
+        font-weight: 600;
+      }
 
-.story-info .header .score {
-  padding-left: 10px;
-}
-
-.story-info .author {
-  color: #919191;
+      .score {
+        padding-left: 10px;
+      }
+    }
+    .author {
+      color: #919191;
+    }
+  }
 }
 
 @media only screen and (max-width: 790px) {

@@ -15,7 +15,7 @@ const StoryCard = ({ story, onClick }: StoryCardProps) => {
         src="https://picsum.photos/100/100"
         alt="random"
       />
-      <div className="story-info">
+      <div className="info">
         <div className="header">
           <div className="title">{story.title}</div>
           <div className="score">{story.score}</div>
