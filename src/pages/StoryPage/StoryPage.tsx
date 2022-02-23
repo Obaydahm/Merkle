@@ -25,7 +25,7 @@ const StoryPage = () => {
             <div className="info">
               {`Author: ${selectedStory.author.id}`}
               {` - Author score: ${selectedStory.author.karma}`}
-              {` - Time: ${date.toDateString()}`}
+              {` - Published: ${date.toDateString()}`}
             </div>
             <div className="story">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis
